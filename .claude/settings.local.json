@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:gist.github.com)",
+      "Bash(npm create:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run:*)",
+      "Bash(npx remotion:*)",
+      "Bash(/tmp/skill_manifest.txt:*)",
+      "Read(//tmp/**)",
+      "Read(//d/tmp/**)",
+      "Bash(skill_completion_report.md:*)",
+      "Bash(ls -lh D:cliDevmapVideo/*.md D:cliDevmapVideo/*.js D:cliDevmapVideo/*.json)"
+    ]
+  }
+}

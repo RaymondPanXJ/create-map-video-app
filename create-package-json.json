@@ -1,0 +1,39 @@
+{
+  "name": "create-map-video-app",
+  "version": "1.0.0",
+  "description": "快速创建 Remotion + Mapbox 地图视频项目的 CLI 工具",
+  "license": "MIT",
+  "author": "Map Video Contributors",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_ORG/create-map-video-app.git"
+  },
+  "bin": {
+    "create-map-video-app": "./create-map-video-app.js"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "preferGlobal": true,
+  "keywords": [
+    "remotion",
+    "mapbox",
+    "video",
+    "map",
+    "animation",
+    "react",
+    "typescript",
+    "cli",
+    "scaffold",
+    "template"
+  ],
+  "homepage": "https://github.com/YOUR_ORG/create-map-video-app",
+  "bugs": {
+    "url": "https://github.com/YOUR_ORG/create-map-video-app/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
