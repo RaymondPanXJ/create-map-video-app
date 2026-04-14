@@ -1,7 +1,53 @@
 {
-  "name": "map-video",
-  "version": "0.1.0",
-  "private": true,
+  "name": "create-map-video-app",
+  "version": "1.0.0",
+  "description": "🗺️ 一键创建 Remotion + Mapbox 地图视频项目的 CLI 工具",
+  "license": "MIT",
+  "author": "RaymondPanXJ",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RaymondPanXJ/create-map-video-app.git"
+  },
+  "homepage": "https://github.com/RaymondPanXJ/create-map-video-app",
+  "bugs": {
+    "url": "https://github.com/RaymondPanXJ/create-map-video-app/issues"
+  },
+  "keywords": [
+    "remotion",
+    "mapbox",
+    "video",
+    "map",
+    "animation",
+    "react",
+    "typescript",
+    "cli",
+    "scaffold",
+    "template",
+    "geolocation",
+    "visualization"
+  ],
+  "bin": {
+    "create-map-video-app": "./create-map-video-app.js"
+  },
+  "type": "commonjs",
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "preferGlobal": true,
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "create-map-video-app.js",
+    "create-package-json.json",
+    "README.md",
+    "LICENSE",
+    "QUICK_START.md",
+    "HOW_TO_USE_THIS_SKILL.md",
+    "docs-core-concepts.md",
+    "SKILL_PACKAGE.md"
+  ],
   "scripts": {
     "dev": "remotion preview",
     "render": "remotion render"
