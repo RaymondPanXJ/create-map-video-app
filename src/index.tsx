@@ -5,6 +5,8 @@ import { EpicDemo } from './compositions/EpicDemo';
 import { MapVideo } from './compositions/MapVideo';
 import { TrainRoute } from './compositions/TrainRoute';
 import { NanjingTour } from './compositions/NanjingTour';
+import { LondonCologneTrip } from './compositions/LondonCologneTrip';
+import { LondonCologneTripCyber } from './compositions/LondonCologneTripCyber';
 
 export const RemotionRoot: React.FC = () => {
   return (
@@ -44,6 +46,22 @@ export const RemotionRoot: React.FC = () => {
       <Composition
         id="NanjingTour"
         component={NanjingTour}
+        durationInFrames={900}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="LondonCologneTrip"
+        component={LondonCologneTrip}
+        durationInFrames={900}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="LondonCologneTripCyber"
+        component={LondonCologneTripCyber}
         durationInFrames={900}
         fps={30}
         width={1920}
